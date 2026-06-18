@@ -52,7 +52,7 @@ body {
 .form-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  row-gap: 2vh;
+  row-gap: 3vh;
   width: 100%;
 }
 
@@ -76,6 +76,7 @@ label {
   padding-top: 1rem;
   padding-bottom: 2rem;
   border-left: none;
+  border-right: none;
 }
 
 button {
@@ -86,6 +87,7 @@ button {
   background-color: rgb(119, 86, 63);
   color: white;
   border: none;
+  font-weight: 600;
 }
 
 p {
@@ -96,7 +98,7 @@ p {
 a {
   text-decoration: none;
   color: rgb(119, 86, 63);
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .text {
@@ -109,3 +111,5 @@ a {
   padding-left: 2rem;
 }
 /* update background pic details */
+/* update body and font background colors */
+/* increase box-shadow to form and buttons */
