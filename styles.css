@@ -44,5 +44,17 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+.form-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2vh;
+}
+
+input {
+  display: block;
+  width: 70%;
+  height: 60%;
+}
 /* update form css */
 /* update background pic details */
