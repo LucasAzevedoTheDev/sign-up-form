@@ -56,5 +56,11 @@ input {
   width: 70%;
   height: 60%;
 }
+
+legend {
+  font-size: 20px;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
 /* update form css */
 /* update background pic details */
