@@ -38,6 +38,7 @@ body {
 .background {
   width: 60vw;
   height: 100%;
+  position: relative;
 }
 
 .content {
