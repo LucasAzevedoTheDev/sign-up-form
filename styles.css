@@ -59,10 +59,10 @@ input {
 }
 
 label {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
-h2 {
+.legend {
   margin-bottom: 1rem;
 }
 
@@ -94,5 +94,14 @@ a {
   color: rgb(119, 86, 63);
   font-weight: bold;
 }
-/* update form css */
+
+.text {
+  margin-top: 6rem;
+  padding-left: 2rem;
+  width: 80%;
+}
+
+.heading {
+  padding-left: 2rem;
+}
 /* update background pic details */
