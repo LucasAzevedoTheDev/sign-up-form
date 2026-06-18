@@ -21,6 +21,7 @@
 
 body {
   overflow: hidden;
+  background-color: rgb(240, 240, 240)
 }
 
 .container {
@@ -78,6 +79,7 @@ label {
   padding-bottom: 2rem;
   border-left: none;
   border-right: none;
+  background-color: white;
 }
 
 button {
@@ -96,7 +98,7 @@ p {
   margin-left: 2rem;
 }
 
-content a {
+.login {
   text-decoration: none;
   color: rgb(119, 86, 63);
   font-weight: 600;
@@ -159,6 +161,5 @@ content a {
 .credits a {
   color: white;
 }
-/* update background pic details */
-/* update body and font background colors */
+
 /* increase box-shadow to form and buttons */
