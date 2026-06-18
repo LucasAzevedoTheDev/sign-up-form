@@ -162,4 +162,19 @@ p {
   color: white;
 }
 
+input:valid {
+  border: 2px solid rgb(131, 96, 71);
+  border-radius: 3px;
+}
+
+input:invalid {
+  border: 2px solid red;
+  border-radius: 3px;
+}
+
+input:focus {
+  border: 2px solid blue;
+  border-radius: 3px;
+  box-shadow: 3px 3px 3px lightblue;
+}
 /* increase box-shadow to form and buttons */
