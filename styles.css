@@ -111,6 +111,30 @@ a {
 .heading {
   padding-left: 2rem;
 }
+
+.odin-container {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.376);
+  width: 100%;
+  height: 120px;
+  top: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.odin {
+  width: 100px;
+  height: 100px;
+}
+
+.odin-container p {
+  font-size: 4rem;
+  font-family: "norse", sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 15px;
+}
 /* update background pic details */
 /* update body and font background colors */
 /* increase box-shadow to form and buttons */
