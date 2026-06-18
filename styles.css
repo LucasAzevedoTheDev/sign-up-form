@@ -31,13 +31,12 @@
 }
 
 .background {
-  width: 100%;
+  width: 60vw;
   height: 100%;
 }
 
 .content {
-  margin: auto;
-  padding-left: 40px;
+  width: 100vw;
 }
 
 .heading {
@@ -49,6 +48,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 2vh;
+  width: 100%;
 }
 
 input {
@@ -57,10 +57,20 @@ input {
   height: 60%;
 }
 
+label {
+  font-size: 0.8rem;
+}
+
 legend {
   font-size: 20px;
   margin-left: 1rem;
   margin-top: 2rem;
 }
+
+form {
+  border: 1px solid grey;
+}
+
+
 /* update form css */
 /* update background pic details */
