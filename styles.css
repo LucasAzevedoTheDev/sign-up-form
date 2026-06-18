@@ -171,6 +171,7 @@ input:valid {
 input:invalid {
   border: 2px solid red;
   border-radius: 3px;
+  box-shadow: 3px 3px 3px rgb(225, 79, 79);
 }
 
 input:focus {
@@ -178,4 +179,3 @@ input:focus {
   border-radius: 3px;
   box-shadow: 3px 3px 3px lightblue;
 }
-/* increase box-shadow to form and buttons */

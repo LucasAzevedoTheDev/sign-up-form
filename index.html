@@ -37,9 +37,9 @@
             <label for="phone">PHONE NUMBER
             <input type="tel" id="phone"></label>
             <label for="password">PASSWORD
-            <input type="password" id="password"></label>
+            <input type="password" id="password" minlength="8" max-length="20" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number, one uppercase letter, one lowercase letter, and at least 8 characters."></label>
             <label for="confirm-password">CONFIRM PASSWORD
-            <input type="password" id="confirm-password"></label>
+            <input type="password" id="confirm-password" minlength="8" max-length="20" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number, one uppercase letter, one lowercase letter, and at least 8 characters."></label>
           </div>
         </div>
         <button>Create Account</button>
